@@ -1,0 +1,114 @@
+*{
+    border: 1px solid black;
+}
+body{
+    padding: 2px;
+    background-color:whitesmoke;
+    font-family:  "Josefin Slab",Helvetica;
+    font-weight: lighter;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+h2,h1{
+    text-align: center;
+}
+nav{
+    overflow: auto;
+    padding: 5px;
+}
+nav .buttons{
+    float:right;
+}
+nav a{
+    cursor: default;
+}
+nav img{
+    height: 40px;
+    float: left;
+}
+button{
+    padding:8px;
+    margin:0px 5px;
+    border: 1px solid black;
+    background-color: #404258;
+    color: white;
+    box-shadow: 3px 3px black;
+    transition: all 0.2s;
+}
+
+button:hover{
+    transform:translate(1px,1px);
+    box-shadow: 2px 2px black;
+}
+button:active{
+    transform:translate(3px,3px);
+    box-shadow: 0px 0px black;
+}
+#members{
+    display:flex;
+    grid-template-columns: 50% 50%;
+    justify-content: left;
+}
+
+.team{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 23vw;
+    min-height: fit-content;
+    overflow: hidden;
+}
+
+#members img{
+    height: 80px;
+    border-radius: 50%;
+    width: 80px;
+}
+#members h3{
+    display: inline;
+    position: absolute;
+    transform: translate(10%,50%);
+    font-family: 'Franklin Gothic Medium',serif;
+    margin-bottom: auto 0;
+}
+.media{
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+.media img{
+    margin: 0 auto;
+    width: 15%;
+    height: fit-content;
+    margin: auto auto;
+}
+
+.media img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#focusedimg{
+    margin:10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.gallery{
+    border: 2px dotted black;
+}
+
+
+
+
+
+
+table{
+    width: 100%;
+    height: fit-content;
+}
+
+table th{
+    background-color: azure;
+}
