@@ -1,1 +1,10 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9413435&assignment_repo_type=AssignmentRepo)
+# Team 46
+## Team Members
+- Islam Ibrahimov
+- Arzum Abdullazade
+- Gunel Javadova
+- Murad Muradov
+
+# Homework 3 - How Websites Work?
+### To view our project you can click the link below.
+[Our Webpage](https://htmlpreview.github.io/?https://github.com/ADA-SITE-SITE1101-2022-Fall/website-team-46/blob/main/index.html)
