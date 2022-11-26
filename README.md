@@ -1,7 +1,7 @@
 # Team 46
 ## Team Members
 - Islam Ibrahimov
-- Arzum Abdullazade
+- Arzum Abdullazada
 - Gunel Javadova
 - Murad Muradov
 
