@@ -9,12 +9,26 @@ body {
     font-weight: lighter;
     margin: 0px;
     scroll-behavior: smooth;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    background-color: #404258;
+    width: 100%;
+    height: 1%;
+}
+
+img {
+    pointer-events: none;
 }
 
 aside {
     position: fixed;
     padding: 20px;
     background-color: midnightblue;
+    opacity: 0.8;
     color: white;
     left: 70%;
     top: 90%;
@@ -39,9 +53,9 @@ nav a {
     cursor: default;
 }
 
-nav img {
-    height: 40px;
+.adaLogo {
     float: left;
+    height: 40px;
 }
 
 button {
@@ -82,15 +96,18 @@ button:active {
 
 #members img {
     height: 80px;
+    box-shadow: 1px 2px black;
     border-radius: 50%;
     width: 80px;
 }
 
 #members h3 {
     display: inline;
+    text-decoration: underline;
     position: absolute;
     transform: translate(10%, 50%);
     font-family: 'Franklin Gothic Medium', serif;
+    letter-spacing: 1px;
     margin-bottom: auto 0;
 }
 
@@ -119,39 +136,65 @@ button:active {
 }
 
 .gallery {
-    border: 2px dotted black;
+    border: 1px solid black;
 }
 
 
 table {
     width: 100%;
     height: fit-content;
+    margin: 50px 0;
 }
 
-table th {
-    background-color: azure;
+table * {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
 }
 
-#progress{
+
+#progress {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-#progress div{
+#progress div {
     flex-basis: 45%;
     margin: 0 auto;
     text-align: center;
     padding: 10px;
 }
-#progress iframe{
+
+#progress iframe {
     height: 500px;
+    box-shadow: 2px 2px black;
     width: 80%;
 }
 
-#progress a{
+#progress a {
     position: absolute;
     background-color: black;
     color: white;
     padding: 5px 10px;
+}
+
+
+#features {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#features div {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#features h3 {
+    text-decoration: underline;
+}
+
+
+#fill {
+    flex: 1;
 }

@@ -1,7 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<!-- 
+    SITE 1101 Principles of Information Systems Fall 2022 
+    ©2022 by Team 46 
+    Submitted in partial fulfillment of the requirements of the course.
+-->
 
 <head>
+    <title>Hour Of Code</title>
     <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,27 +16,34 @@
 
 <body>
     <nav>
-        <img src="./media/ada_logo_color.png" alt="ADA">
+        <img src="./media/ada_logo_color.png" alt="ADA" class="adaLogo">
         <div class="buttons">
-            <a href="./index.html"><button>About Us</button></a>
-            <a href="./hourOfCode.html"><button>Hour Of Code</button></a>
-            <a href="./AboutProject.html"><button>How Websites Work?</button></a>
+            <form><button formaction="./index.html">About Us</button>
+                <button formaction="./hourOfCode.html">Hour Of Code</button>
+                <button formaction="./AboutProject.html">How Websites Work?</button>
+            </form>
         </div>
     </nav>
+    <hr>
     <main>
         <header>
             <h1>Hour Of Code Event</h1>
         </header>
         <section id="eventreport">
-            <p>Hello everyone,<br> Our Team 46 (Arzum Abdullazada, Islam Ibrahimov, Murad Mammadov, Gunel Javadova) went
-                to Baku Secondary School No.67 on November 12, 2022 at 9.am to held <a href="#">#HourOfCode</a> event.
-                First we introduced
-                some information about our university, then we tried to give information about coding. After all we
-                showed assignments on <a href="https://code.org/">Code.org</a>, where they can improve
-                their knowledge about coding and to learn what they learnt during the lesson. All students tried to
-                participate and we helped them to write the codes. <br> Students’ and teacher’s impressions were good
-                about our lesson. They said that they learnt much information. We want to give our thanks to Baku
-                Secondary School No.67 and 9th grade students.</p>
+            <div>
+                <p>Hello everyone,<br> Our Team 46 (Arzum Abdullazada, Islam Ibrahimov, Murad Mammadov, Gunel Javadova)
+                    went
+                    to Baku Secondary School No.67 on November 12, 2022 at 9.am to held <a href="#">#HourOfCode</a>
+                    event.
+                    First we introduced
+                    some information about our university, then we tried to give information about coding. After all we
+                    showed assignments on <a href="https://code.org/">Code.org</a>, where they can improve
+                    their knowledge about coding and to learn what they learnt during the lesson. All students tried to
+                    participate and we helped them to write the codes. <br> Students' and teacher's impressions were
+                    good
+                    about our lesson. They said that they learnt much information. We want to give our thanks to Baku
+                    Secondary School No.67 and 9th grade students.</p>
+            </div>
         </section>
         <section class="gallery">
             <div class="media">
@@ -43,7 +56,7 @@
             <div><img src="./media/n.jpg" alt="" id="focusedimg"></div>
         </section>
         <section>
-            <h2>Event Report</h2>
+            <h2>Contribution Table</h2>
             <div>
                 <table>
                     <tr>
@@ -52,32 +65,39 @@
                         <th>Estimated %</th>
                     </tr>
                     <tr>
-                        <th>Arzum</th>
-                        <th>Contribution</th>
-                        <th>Estimated %</th>
+                        <td>Arzum</td>
+                        <td>Contribution</td>
+                        <td>Estimated %</td>
                     </tr>
                     <tr>
-                        <th>Gunel</th>
-                        <th>Contribution</th>
-                        <th>Estimated %</th>
+                        <td>Gunel</td>
+                        <td>Contribution</td>
+                        <td>Estimated %</td>
                     </tr>
                     <tr>
-                        <th>Islam</th>
-                        <th>Contribution</th>
-                        <th>Estimated %</th>
+                        <td>Islam</td>
+                        <td>Contribution</td>
+                        <td>Estimated %</td>
                     </tr>
                     <tr>
-                        <th>Murad</th>
-                        <th>Contribution</th>
-                        <th>Estimated %</th>
+                        <td>Murad</td>
+                        <td>Contribution</td>
+                        <td>Estimated %</td>
                     </tr>
                 </table>
             </div>
         </section>
     </main>
     <aside>NOT FINISHED YET</aside>
-    <footer></footer>
-    <script src="./script.js" type="text/javascript"></script>
+    <article id="fill"></article>
+    <hr>
+    <footer>
+        <small>SITE 1101 Principles of Information
+            Systems Fall 2022 <br>
+            ©2022 by Team 46 <br>
+            Submitted in partial fulfillment of the requirements of the course.</small>
+    </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>
