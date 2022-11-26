@@ -58,7 +58,8 @@ nav a {
     height: 40px;
 }
 
-button {
+.button {
+    display: inline-block;
     padding: 8px;
     margin: 0px 5px;
     border: 1px solid black;
@@ -66,14 +67,15 @@ button {
     color: white;
     box-shadow: 3px 3px navy;
     transition: all 0.2s;
+    text-decoration: none;
 }
 
-button:hover {
+.button:hover {
     transform: translate(1px, 1px);
     box-shadow: 2px 2px black;
 }
 
-button:active {
+.button:active {
     transform: translate(3px, 3px);
     box-shadow: 0px 0px black;
 }
