@@ -3,8 +3,8 @@
 }
 
 body {
-    padding: 2px;
-    background-color: whitesmoke;
+    padding: 5px;
+    background-color: #F3EFE0;
     font-family: "Poppins";
     font-weight: lighter;
     margin: 0px;
@@ -16,7 +16,7 @@ aside {
     padding: 20px;
     background-color: midnightblue;
     color: white;
-    left: 80%;
+    left: 70%;
     top: 90%;
 }
 
@@ -65,17 +65,16 @@ button:active {
 
 #members {
     display: flex;
-    grid-template-columns: 50% 50%;
-    justify-content: left;
+    flex-wrap: wrap;
 }
 
 .team {
     padding: 5px;
     border: 1px solid black;
     border-radius: 5px;
-    margin: 0 auto;
-    width: 23vw;
+    margin: 10px auto;
     min-height: fit-content;
+    width: 400px;
     overflow: hidden;
 }
 
@@ -122,10 +121,6 @@ button:active {
 }
 
 
-
-
-
-
 table {
     width: 100%;
     height: fit-content;
@@ -133,4 +128,28 @@ table {
 
 table th {
     background-color: azure;
+}
+
+#progress{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#progress div{
+    flex-basis: 45%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+#progress iframe{
+    height: 500px;
+    width: 80%;
+}
+
+#progress a{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
 }
