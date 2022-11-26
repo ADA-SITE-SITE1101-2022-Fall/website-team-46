@@ -1,7 +1,9 @@
 /* {
     border: 1px solid black;
 }*/
-
+html{
+    overflow-x: hidden;
+}
 body {
     padding: 5px;
     background-color: #F3EFE0;
@@ -12,6 +14,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 hr {
@@ -30,7 +33,7 @@ aside {
     background-color: midnightblue;
     opacity: 0.8;
     color: white;
-    right: 20px;
+    right: 30%;
     top: 90%;
 }
 
