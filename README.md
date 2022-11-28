@@ -3,7 +3,7 @@
 - Islam Ibrahimov
 - Arzum Abdullazada
 - Gunel Javadova
-- Murad Muradov
+- Murad Mammadov
 
 # Homework 3 - How Websites Work?
 ### To view our project you can click the link below.
