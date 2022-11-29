@@ -3,3 +3,7 @@ function focusImg(imgs) {
     expandImg.src = imgs.src;
     expandImg.parentElement.style.display = "block";
 }
+
+$(window).on('load', function() {
+    $("#cover").hide();
+});
