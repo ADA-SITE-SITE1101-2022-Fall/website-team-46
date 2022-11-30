@@ -7,4 +7,4 @@ function focusImg(imgs) {
 document.addEventListener("DOMContentLoaded", function(){
     
 document.getElementByld("cover").style.visibility="visible";
-});
+})
