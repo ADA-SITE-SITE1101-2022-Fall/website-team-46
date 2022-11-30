@@ -100,6 +100,10 @@ nav a {
     width: 400px;
     overflow: hidden;
 }
+team.hover {
+    margin: 7px auto 12px auto;
+    box-shadow: 3px 6px black;
+}
 
 #members img {
     height: 80px;
