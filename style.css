@@ -15,6 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    visibility: hidden;
 }
 
 hr {
@@ -89,12 +90,13 @@ nav a {
 }
 
 .team {
-    padding: 5px;
+    flex-basis: 35%;
+    padding: 10px;
     box-shadow: 3px 3px black;
     border: 1px solid black;
     border-radius: 5px;
     margin: 10px auto;
-    min-height: fit-content;
+    min-height: 200px;
     width: 400px;
     overflow: hidden;
 }
