@@ -100,7 +100,7 @@ nav a {
     width: 400px;
     overflow: hidden;
 }
-team:hover {
+.team:hover {
     margin: 7px auto 12px auto;
     box-shadow: 3px 6px black;
 }
