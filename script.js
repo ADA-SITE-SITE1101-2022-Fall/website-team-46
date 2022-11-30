@@ -3,7 +3,3 @@ function focusImg(imgs) {
     expandImg.src = imgs.src;
     expandImg.parentElement.style.display = "block";
 }
-
-window.addEventListener('load',function(){
-    document.getElementById("cover").style.visibility = "visible";
-},false)
