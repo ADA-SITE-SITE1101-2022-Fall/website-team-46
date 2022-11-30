@@ -1,9 +1,10 @@
 /* {
     border: 1px solid black;
 }*/
-html{
+html {
     overflow-x: hidden;
 }
+
 body {
     padding: 5px;
     background-color: #F3EFE0;
@@ -26,16 +27,6 @@ hr {
 
 img {
     pointer-events: none;
-}
-
-aside {
-    position: fixed;
-    padding: 20px;
-    background-color: midnightblue;
-    opacity: 0.8;
-    color: white;
-    right: 30%;
-    top: 90%;
 }
 
 h2,
@@ -89,7 +80,7 @@ nav a {
     flex-wrap: wrap;
 }
 
-.team {
+.team { 
     flex-basis: 35%;
     padding: 10px;
     box-shadow: 3px 3px black;
@@ -99,7 +90,9 @@ nav a {
     min-height: 200px;
     width: 400px;
     overflow: hidden;
+    transition: all 0.2s;
 }
+
 .team:hover {
     margin: 7px auto 12px auto;
     box-shadow: 3px 6px black;
@@ -129,7 +122,7 @@ nav a {
 }
 
 .media img {
-    pointer-events:visible !important;
+    pointer-events: visible !important;
     margin: 0 auto;
     width: 15%;
     height: fit-content;
