@@ -4,12 +4,6 @@ function focusImg(imgs) {
     expandImg.parentElement.style.display = "block";
 }
 
-function delay(time) {
-    return new Promise(resolve => setTimeout(resolve, time));
-}
-
-document.addEventListener('DOMContentLoaded', () =>
-  delay(1000).then(() => {
+window.onload(function(){
     document.getElementById("cover").style.visibility = "visible";
-    document.getElementById("loading").style.visibility = "hidden";
-  }));
+})
