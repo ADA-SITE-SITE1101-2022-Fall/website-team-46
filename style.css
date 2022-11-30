@@ -20,6 +20,8 @@ body {
 }
 
 #loading{
+    z-index: 2;
+    background-color: inherit;
     visibility: visible;
     position: fixed;
     height: 100%;

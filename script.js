@@ -9,7 +9,7 @@ function delay(time) {
 }
 
 document.addEventListener('DOMContentLoaded', () =>
-  delay(500).then(() => {
+  delay(1000).then(() => {
     document.getElementById("cover").style.visibility = "visible";
     document.getElementById("loading").style.visibility = "hidden";
   }));
