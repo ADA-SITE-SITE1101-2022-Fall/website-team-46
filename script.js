@@ -4,6 +4,7 @@ function focusImg(imgs) {
     expandImg.parentElement.style.display = "block";
 }
 
-$(window).on('load', function() {
-    $("#cover").hide();
+document.addEventListener("DOMContentLoaded", function(){
+    
+document.getElementByld("cover").style.visibility="visible";
 });
