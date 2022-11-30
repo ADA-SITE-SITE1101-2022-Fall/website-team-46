@@ -4,6 +4,6 @@ function focusImg(imgs) {
     expandImg.parentElement.style.display = "block";
 }
 
-window.onload(function(){
+window.addEventListener('load',function(){
     document.getElementById("cover").style.visibility = "visible";
-})
+},false)
