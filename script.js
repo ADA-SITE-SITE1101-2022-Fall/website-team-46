@@ -4,6 +4,12 @@ function focusImg(imgs) {
     expandImg.parentElement.style.display = "block";
 }
 
-window.onload = function(){
-    document.getElementById("cover").style.visibility="visible";
+function delay(time) {
+    return new Promise(resolve => setTimeout(resolve, time));
 }
+
+document.addEventListener('DOMContentLoaded', () =>
+  delay(100).then(() => {
+    document.getElementById("cover").style.visibility = "visible";
+    document.getElementById("loading").style.visibility = "hidden";
+  }));

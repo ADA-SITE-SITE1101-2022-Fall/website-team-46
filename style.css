@@ -19,6 +19,18 @@ body {
     visibility: hidden;
 }
 
+#loading{
+    visibility: visible;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-image: url(./media/loading.gif);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 10%;
+}
+
 hr {
     background-color: #404258;
     width: 100%;
@@ -80,7 +92,7 @@ nav a {
     flex-wrap: wrap;
 }
 
-.team { 
+.team {
     flex-basis: 35%;
     padding: 10px;
     box-shadow: 3px 3px black;
@@ -152,7 +164,8 @@ table {
     margin: 50px 0;
 }
 
-table th,td {
+table th,
+td {
     border-bottom: 1px solid black;
     border-left: 1px solid black;
 }
