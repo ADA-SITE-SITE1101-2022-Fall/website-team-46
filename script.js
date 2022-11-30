@@ -5,6 +5,5 @@ function focusImg(imgs) {
 }
 
 document.addEventListener("DOMContentLoaded", function(){
-    
-document.getElementByld("cover").style.visibility="visible";
+    document.getElementById("cover").style.visibility="visible";
 })
