@@ -65,6 +65,7 @@ nav a {
 .teamlogo {
     float: left;
     height: 50px;
+    max-height: 50px !important;
 }
 
 .button {
