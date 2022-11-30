@@ -138,6 +138,7 @@ nav a {
     margin: 10px;
     margin-left: 50%;
     transform: translateX(-50%);
+    max-height: 500px;
 }
 
 .gallery {
@@ -151,7 +152,7 @@ table {
     margin: 50px 0;
 }
 
-table * {
+table th,td {
     border-bottom: 1px solid black;
     border-left: 1px solid black;
 }
